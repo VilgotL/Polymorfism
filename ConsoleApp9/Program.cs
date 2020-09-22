@@ -13,11 +13,11 @@ namespace ConsoleApp9
             double höjd;
             double bredd;
             int form;
-            Console.WriteLine("Höjd: ");
+            Console.Write("Höjd: ");
             höjd = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Bredd: ");
+            Console.Write("Bredd: ");
             bredd = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Skriv 1 om det är en rätvinklig triangel och 2 om det är en rektangel");
+            Console.Write("Skriv 1 om det är en rätvinklig triangel och 2 om det är en rektangel");
             form = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine();
             Shape s;
